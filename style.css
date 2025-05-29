@@ -14,78 +14,52 @@ img {
     max-width: 100%;
 }
 
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-     /* 
-        padding-left: 28px; 
-        padding-right: 28px;
-        padding-top: 12px;
-        padding-bottom: 12px;
-    */
-    padding: 0px 2px;
-    /* navigation */
-.navbar {
-    .navbar-brand {
-      img {
-        width: 75%; 
-      }
-    }
-    .collapse  {
-      justify-content: flex-end;
-      .navbar-nav {
-        margin: 0;
-        .nav-link {
-          color: rgba(25, 123, 189, 0.795);
-          font-weight: bold;
-        }
-        .nav-link:hover {
-          color: rgb(0, 0, 0);
-          font-size: large;
-        }
-      }
-    }
-  }
-    /* end-navigation */
-}
-
-.hero {
-    width: 100%;
+header {
+    background-image: url("https://buggy.yodycdn.com/images/home-banner-dt/ef646d7f10dcb3c4d911b17d81387b21.webp?width=2880&height=1620");
     height: 100vh;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-    .hero-img {
-        position: absolute;
-        left: 0;
-        top: 0;
-        z-index: -1;
-        width: 100%;
-        height: 100%;
-        background-size: cover;
+    background-size: cover;
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 2px;
+        /* navigation */
+        .navbar {
+            .navbar-brand {
+            img {
+                width: 75%; 
+            }
+            }
+            .collapse  {
+            justify-content: flex-end;
+            .navbar-nav {
+                margin: 0;
+                .nav-link {
+                color: rgba(25, 123, 189, 0.795);
+                font-weight: bold;
+                }
+                .nav-link:hover {
+                color: rgb(0, 0, 0);
+                font-size: large;
+                }
+            }
+            }
+        }
+        /* end-navigation */
     }
 }
-
 
 /* New Version */
 main {
     background-color: #222;
-    border-radius: 10px;
-    .movie {
-        border-radius: 20px;
-        overflow: hidden;
-        .movie-desc {
-            padding: 10px;
-            
-            background-color: #1a1a1a;
-            color: white;
-            p {
-                font-size: 15px;
-            }
-     } 
+}
+
+.box {
+    img {
+        border-radius: 5px;
+    }
+    .box-desc {
+        color: white;
     }
 }
 
@@ -93,6 +67,7 @@ main {
     color:white;
     font-size:25px;
 }
+
 /* end new version */
 .form-wrapper {
     background-color: #006b84;

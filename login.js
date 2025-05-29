@@ -16,10 +16,16 @@ function checkEmailAndPassword(event) {
     // 2. Nếu có danh sách user
     let isRegister = false
     for (let index = 0; index < listUser.length; index += 1) {
-        if (listUser[index].email === inputEmail.value && 
-            listUser[index].password === inputPassword.value
+        let user = listUser[index]; 
+        if (user.email === inputEmail.value && 
+            user.password === inputPassword.value
         ) {
             isRegister = true
+            let userLogged = JSON.parse(localStorage.getItem("user-logged"));
+            if (userLogged == null) {
+                localStorage.setItem("user-logged", JSON.stringify(user))
+            } 
+    
             // Ngừng vòng lặp ngay lập tức
             break; 
         }

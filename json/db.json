@@ -4,13 +4,43 @@
             "id": 1, 
             "name": "Quần Jeans",
             "image_url":"https://bizweb.dktcdn.net/thumb/large/100/292/624/products/dscf8517.jpg?v=1715778152663",
-            "desc": ""
+            "price": "369.000đ"
         },
               {
             "id": 2, 
             "name": "Quần Jeans",
             "image_url":"https://bizweb.dktcdn.net/thumb/large/100/292/624/products/dscf8517.jpg?v=1715778152663",
-            "desc": ""
+            "price": "369.000đ"
+        },
+         {
+            "id": 3, 
+            "name": "Quần Jeans",
+            "image_url":"https://bizweb.dktcdn.net/thumb/large/100/292/624/products/dscf8517.jpg?v=1715778152663",
+            "price": "369.000đ"
+        },
+         {
+            "id": 4, 
+            "name": "Quần Jeans",
+            "image_url":"https://bizweb.dktcdn.net/thumb/large/100/292/624/products/dscf8517.jpg?v=1715778152663",
+            "price": "369.000đ"
+        },
+         {
+            "id": 5, 
+            "name": "Quần Jeans",
+            "image_url":"https://bizweb.dktcdn.net/thumb/large/100/292/624/products/dscf8517.jpg?v=1715778152663",
+            "price": "369.000đ"
+        },
+         {
+            "id": 6, 
+            "name": "Quần Jeans",
+            "image_url":"https://bizweb.dktcdn.net/thumb/large/100/292/624/products/dscf8517.jpg?v=1715778152663",
+            "price": "369.000đ"
+        },
+         {
+            "id": 7, 
+            "name": "Quần Jeans",
+            "image_url":"https://bizweb.dktcdn.net/thumb/large/100/292/624/products/dscf8517.jpg?v=1715778152663",
+            "price": "369.000đ"
         }
     ]
 }
