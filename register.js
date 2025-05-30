@@ -14,8 +14,8 @@ function handleRegisterSubmit (event) {
     const email = inputEmail.value
     const password = inputPassword.value
 
-    if (username.length < 10) {
-        alert("user lơn hơn 10 kí tự")
+    if (username.length < 5 || username.length > 10) {
+        alert("Username từ 5 - 10 ký tự !!!")
         return;
     }
 

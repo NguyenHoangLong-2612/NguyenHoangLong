@@ -14,6 +14,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
         crossorigin="anonymous"></script>
+    <!-- Google font -->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -23,48 +27,67 @@
         <header>
             <div class="container">
                 <nav>
-                    <!-- LOGO -->
-                    <h1 class="logo">
-                        <a href="index.html">
-                            LOGO
-                        </a>
+                    <h1>
+                        <a href="index.html">LONG-STORE</a>
                     </h1>
-                    <!-- navvvvvv -->
-                    <div class="container">
-                        <!-- navigation -->
-                        <nav class="navbar navbar-expand-lg">
-                            <!-- Humberger -->
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Home</a>
-                                    </li>
-                                    <li class="nav-item user-login">
-                                        <!-- <a class="nav-link active" aria-current="page" href="./login.html">Đăng nhập</a> -->
-                                        <!-- <span>Nguyen Hoang Long</span> -->
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Tải ứng dụng</a>
-                                    </li>
-                                </ul>
-                        </nav>
+                    <ul class="navigation">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <div class="nav-right">
+                        <div class="login">
+                            <a href="login.html">
+                                <button> Login </button>
+                            </a>
+                            <span class="user-name">
+                                <i class="fa-solid fa-user"></i>
+                                Lucasss
+                            </span>
+                            <span class="logout">
+                                <i class="fa-solid fa-right-from-bracket"></i>
+                            </span>
+                        </div>
+                        <div class="button-show-menu">
+                            <span><i class="fa-solid fa-bars"></i></span>
+                        </div>
+                    </div>
                 </nav>
             </div>
         </header>
 
         <main>
+            <section class="hero-section">
+                <img src="https://buggy.yodycdn.com/images/home-banner-dt/ef646d7f10dcb3c4d911b17d81387b21.webp?width=2880&height=1620" alt="">
+             </section>
             <section class="trousers-section">
                 <div class="container">
                     <h3 class="section-title">Trousers</h3>
                     <div class="row trourser">
+                        <div class="col-lg-3 ">
+                            <div class="box">
+                                <div class="img">
+                                    <img src="./assets/Quan Jogger Den.webp" alt="">
+                                </div>
+                                <div class="box-desc">
+                                    <h3>Quần Jogger</h3>
+                                    <h4>369.000đ</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ao-section">
+                <div class="container">
+                    <h3 class="section-title">T-Shirt</h3>
+                    <div class="row ao">
                         <div class="col-lg-3">
                             <div class="box">
-                                <img src="./assets/Quan Jogger Den.webp" alt="">
+                                <div class="img">
+                                    <img src="./assets/Quan Jogger Den.webp" alt="">
+                                </div>
                                 <div class="box-desc">
                                     <h3>Quần Jogger</h3>
                                     <h4>369.000đ</h4>
@@ -77,7 +100,68 @@
         </main>
         <!-- Footer -->
         <footer>
-
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <h4>Long-Store XIN CHÀO 💖</h4>
+                        <p>
+                            Chúng tôi luôn quý trọng và tiếp thu mọi ý kiến đóng góp từ khách hàng, nhằm không ngừng cải thiện và nâng tầm trải nghiệm dịch vụ cũng như chất lượng sản phẩm.
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-12">
+                        <ul class="list-desc">
+                            <li>
+                                <div class="icon">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="desc">
+                                    <p>Đặt hàng</p>
+                                    <p><a href="tel:0123.456.789">0123.456.789</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="desc">
+                                    <p>Hot line </p>
+                                    <p><a href="tel:0123.456.789">1800 0000</a></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <ul class="list-desc">
+                            <li>
+                                <div class="icon">
+                                    <i class="fa-regular fa-envelope"></i>
+                                </div>
+                                <div class="desc">
+                                    <p>Đặt hàng</p>
+                                    <p><a href="tel:0123.456.789">0123.456.789</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="desc">
+                                    <p>Hot line </p>
+                                    <p><a href="tel:0123.456.789">1800 0000</a></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                     <div class="col-lg-3 col-md-12 col-sm-12">
+                        <ul class="list-social">
+                            <li><i class="fa-brands fa-tiktok"></i></li>
+                            <li><i class="fa-brands fa-facebook"></i></li>
+                            <li><i class="fa-brands fa-instagram"></i></li>
+                            <li><i class="fa-brands fa-youtube"></i></li>
+                        </ul>
+                     </div>
+                </div>
+            </div>
         </footer>
     </div>
     <script src="./index.js"></script>
