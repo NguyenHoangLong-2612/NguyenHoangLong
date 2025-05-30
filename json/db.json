@@ -2,45 +2,108 @@
     "products": [
         {
             "id": 1, 
-            "name": "Quần Jeans",
-            "image_url":"https://bizweb.dktcdn.net/thumb/large/100/292/624/products/dscf8517.jpg?v=1715778152663",
-            "price": "369.000đ"
+            "name": "Quần jogger",
+            "image_url":"https://media3.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85/uploads/December2024/24CM.MAWCS.JGZ996_-_Buluga_1.jpg",
+            "price": "399.000đ", 
+            "category": "quan"
         },
-              {
+        {
             "id": 2, 
-            "name": "Quần Jeans",
-            "image_url":"https://bizweb.dktcdn.net/thumb/large/100/292/624/products/dscf8517.jpg?v=1715778152663",
-            "price": "369.000đ"
+            "name": "Quần Kẻ Sọc",
+            "image_url":"https://media3.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85/uploads/December2024/24CM.MAWCS.JGZ996_-_Buluga_1.jpg",
+            "price": "369.000đ", 
+            "category": "quan"
         },
-         {
+        {
             "id": 3, 
             "name": "Quần Jeans",
-            "image_url":"https://bizweb.dktcdn.net/thumb/large/100/292/624/products/dscf8517.jpg?v=1715778152663",
-            "price": "369.000đ"
+            "image_url":"https://media3.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85/uploads/December2024/24CM.MAWCS.JGZ996_-_Buluga_1.jpg",
+            "price": "369.000đ", 
+            "category": "quan"
         },
-         {
+           {
             "id": 4, 
             "name": "Quần Jeans",
-            "image_url":"https://bizweb.dktcdn.net/thumb/large/100/292/624/products/dscf8517.jpg?v=1715778152663",
-            "price": "369.000đ"
+            "image_url":"https://media3.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85/uploads/December2024/24CM.MAWCS.JGZ996_-_Buluga_1.jpg",
+            "price": "369.000đ", 
+            "category": "quan"
         },
-         {
+           {
             "id": 5, 
             "name": "Quần Jeans",
-            "image_url":"https://bizweb.dktcdn.net/thumb/large/100/292/624/products/dscf8517.jpg?v=1715778152663",
-            "price": "369.000đ"
+            "image_url":"https://media3.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85/uploads/December2024/24CM.MAWCS.JGZ996_-_Buluga_1.jpg",
+            "price": "369.000đ", 
+            "category": "quan"
         },
-         {
-            "id": 6, 
-            "name": "Quần Jeans",
-            "image_url":"https://bizweb.dktcdn.net/thumb/large/100/292/624/products/dscf8517.jpg?v=1715778152663",
-            "price": "369.000đ"
-        },
-         {
+        {
             "id": 7, 
             "name": "Quần Jeans",
-            "image_url":"https://bizweb.dktcdn.net/thumb/large/100/292/624/products/dscf8517.jpg?v=1715778152663",
-            "price": "369.000đ"
+            "image_url":"https://media3.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85/uploads/December2024/24CM.MAWCS.JGZ996_-_Buluga_1.jpg",
+            "price": "369.000đ", 
+            "category": "quan"
+        },
+        {
+            "id": 8, 
+            "name": "Quần Jeans",
+            "image_url":"https://media3.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85/uploads/December2024/24CM.MAWCS.JGZ996_-_Buluga_1.jpg",
+            "price": "369.000đ", 
+            "category": "quan"
+        },
+        {
+            "id": 9, 
+            "name": "Quần Jeans",
+            "image_url":"https://media3.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85/uploads/December2024/24CM.MAWCS.JGZ996_-_Buluga_1.jpg",
+            "price": "369.000đ", 
+            "category": "quan"
+        },
+        {
+            "id": 10, 
+            "name": "Quần Jeans",
+            "image_url":"https://media3.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85/uploads/December2024/24CM.MAWCS.JGZ996_-_Buluga_1.jpg",
+            "price": "369.000đ", 
+            "category": "quan"
+        }
+        , {
+            "id": 11, 
+            "name": "Áo thun",
+            "image_url":"https://buggy.yodycdn.com/images/product/b742a3cdd579680ccbbd3f647bd48986.webp?width=431&height=575",
+            "price": "369.000đ", 
+            "category": "ao"
+        },
+        {
+            "id": 12, 
+            "name": "Áo thun",
+            "image_url":"https://media3.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85/uploads/October2024/Mockup_Ao_tran_ao_tot_bunggang_copy_(6).jpg",
+            "price": "369.000đ", 
+            "category": "ao"
+        },
+        {
+            "id": 13, 
+            "name": "Áo thun",
+            "image_url":"https://media3.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85/uploads/October2024/Mockup_Ao_tran_ao_tot_bunggang_copy_(6).jpg",
+            "price": "369.000đ", 
+            "category": "ao"
+        },
+        {
+            "id": 14, 
+            "name": "Áo thun",
+            "image_url":"https://media3.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85/uploads/October2024/Mockup_Ao_tran_ao_tot_bunggang_copy_(6).jpg",
+            "price": "369.000đ", 
+            "category": "ao"
+        },
+        {
+            "id": 15, 
+            "name": "Áo thun",
+            "image_url":"https://media3.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85/uploads/October2024/Mockup_Ao_tran_ao_tot_bunggang_copy_(6).jpg",
+            "price": "369.000đ", 
+            "category": "ao"
+        },
+        {
+            "id": 16, 
+            "name": "Áo thun",
+            "image_url":"https://media3.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85/uploads/October2024/Mockup_Ao_tran_ao_tot_bunggang_copy_(6).jpg",
+            "price": "369.000đ", 
+            "category": "ao"
         }
     ]
 }
